@@ -27,14 +27,14 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC |     | LTAB |  UP | RTAB |     |   |  7  |   8  |  9  |  /  |  *  | BKSP |
-// |  TAB |     |  LFT | DWN |  RGT |     |   |  4  |   5  |  6  |  -  |  +  |   $  |
-// | CTRL |     |      |     |      |     |   |  1  |   2  |  3  |  .  |  =  | ALT  | 
+// |  ESC | HOME | LTAB |  UP | RTAB |  PUP  |   |  7  |   8  |  9  |  /  |  *  | BKSP |
+// |  TAB | END  |  LFT | DWN |  RGT |  PDWN |   |  4  |   5  |  6  |  -  |  +  |   $  |
+// | CTRL |      |      |     |      |       |   |  1  |   2  |  3  |  .  |  =  | ALT  | 
 //                    | GUI | SPC   | --- |   |  0  | SHFT |  ,  |
                         bindings = <
-   &kp ESC    &none    &kp LC(LS(TAB)) &kp UP    &kp LC(TAB) &none         &kp N7   &kp N8   &kp N9 &kp LS(N7)  &kp LS(RBKT) &mt LA(BSPC) BSPC 
-   &kp TAB    &none    &kp LEFT        &kp DOWN  &kp RIGHT   &none         &kp N4   &kp N5   &kp N6 &kp FSLH    &kp RBKT     &kp LS(N4)
-   &kp LCTRL  &none    &none           &none     &none       &none         &kp N1   &kp N2   &kp N3 &kp DOT     &kp LS(N0)   &kp LALT
+   &kp ESC    &kp HOME  &kp LC(LS(TAB)) &kp UP    &kp LC(TAB) &kp PG_UP         &kp N7   &kp N8   &kp N9 &kp LS(N7)  &kp LS(RBKT) &mt LA(BSPC) BSPC 
+   &kp TAB    &kp END   &kp LEFT        &kp DOWN  &kp RIGHT   &kp PG_DN         &kp N4   &kp N5   &kp N6 &kp FSLH    &kp RBKT     &kp LS(N4)
+   &kp LCTRL  &none     &none           &none     &none       &none         &kp N1   &kp N2   &kp N3 &kp DOT     &kp LS(N0)   &kp LALT
                           	        &kp LGUI  &kp SPACE   &none         &kp N0   &kp LSHFT  &kp COMMA
                         >;
                 };
