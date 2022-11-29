@@ -46,7 +46,7 @@
 // | BT_CLR | BT0 | BT1 | BT2 | BT3  | BT4 |   |  {  |  }  |     |     | "|" |      |
 //                    | GUI |     | SPC |   |  | SHFT| RET |
                         bindings = <
-   &kp ESC    &kp LS(N1)   &kp LS(MINUS) &kp LS(N2)     &kp DLLR     &kp PRCNT    &kp RA(N5) &kp RA(N6) &kp GRAVE  &kp TILDE       &none         &mt LA(BSPC) BSPC
+   &kp ESC    &kp LS(N1)   &kp LS(MINUS) &kp LS(N2)     &kp DLLR     &td0    &kp RA(N5) &kp RA(N6) &kp GRAVE  &kp TILDE       &none         &mt LA(BSPC) BSPC
    &kp TAB    &kp RA(Q)    &trans        &trans         &trans       &trans       &kp LS(N8) &kp LS(N9) &kp LS(N7) &kp LS(RA(N7))  &kp BSLH      &kp LS(BSLH)
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3 &bt BT_SEL 4 &kp RA(N8) &kp RA(N9) &kp LBRC   &kp RBRC        &kp PIPE      &kp TILDE
                     	     &kp LGUI     &kp SPACE      &trans       &trans      &kp LSHFT &kp RET
