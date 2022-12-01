@@ -15,7 +15,7 @@
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LALT> , <&kp  RALT>;
+            bindings = <&kp LC(C)> , <&kp  LC(X)>;
         };
     };
 
@@ -39,12 +39,12 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Z  |  U   |  I  |  O  | P/ß | BACKSP   |
 // | TAB  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  Ö  |   Ä      |
-// | CTRL |  Y  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  Ü  |  R/L ALT |
+// | CTRL |  Y  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  Ü  |  LALT    |
 //                    | GUI | SPC | MAT |   | SDR | SHFT | RET |
                         bindings = <
    &kp ESC   &kp Q     &kp W &kp E &kp R &kp T   &kp Y &kp U       &kp I     &kp O   &mt MINUS P    &mt LA(BSPC) BSPC 
    &kp TAB   &kp A     &kp S &kp D &kp F &kp G   &kp H &kp J       &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LCTRL &kp Z     &kp X &kp C &kp V &kp B   &kp N &kp M       &kp COMMA &kp DOT &kp LBKT &td0
+   &kp LCTRL &kp Z     &kp X &kp C &kp V &kp B   &kp N &kp M       &kp COMMA &kp DOT &kp LBKT &kp LALT
                   &kp LGUI &kp SPACE &mo 1   &mo 2 &kp LSHFT &mt LS(RET) RET
                         >;
                 };
@@ -52,13 +52,13 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC | PG-UP   | LTAB |  UP | RTAB |  HOME  |   |  7  |   8  |  9  |  /  |  *  | BKSP |
 // |  TAB | PG-DWN  |  LFT | DWN |  RGT |  END |   |  4  |   5  |  6  |  -  |  +  |   $  |
-// | CTRL |         |DesktL|     |DesktR|       |   |  1  |   2  |  3  |  .  |  =  | ALT  | 
+// | CTRL |         |DesktL| Copy|DesktR|       |   |  1  |   2  |  3  |  .  |  =  | ALT  | 
 //                    | GUI | SPC   | --- |   |  0  | SHFT |  ,  |
                         bindings = <
    &kp ESC    &kp PG_UP  &kp LC(LS(TAB)) &kp UP    &kp LC(TAB)    &kp HOME         &kp N7   &kp N8   &kp N9 &kp LS(N7)  &kp LS(RBKT) &mt LA(BSPC) BSPC 
    &kp TAB    &kp PG_DN  &kp LEFT        &kp DOWN  &kp RIGHT      &kp END          &kp N4   &kp N5   &kp N6 &kp FSLH    &kp RBKT     &kp LS(N4)
-   &kp LCTRL  &none      &kp LC(LEFT)    &none     &kp LC(RIGHT)  &none            &kp N1   &kp N2   &kp N3 &kp DOT     &kp LS(N0)   &kp LALT
-                          	        &kp LGUI  &kp SPACE   &none         &kp N0   &kp LSHFT  &kp COMMA
+   &kp LCTRL  &none      &kp LC(LEFT)    &td0      &kp LC(RIGHT)  &none            &kp N1   &kp N2   &kp N3 &kp DOT     &kp LS(N0)   &kp LALT
+                          	        &kp LGUI   &kp SPACE   &none         &kp N0   &kp LSHFT  &kp COMMA
                         >;
                 }; 
 
