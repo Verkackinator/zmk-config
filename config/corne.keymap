@@ -55,25 +55,25 @@
 // | CTRL |         |DesktL| Copy|DesktR| Paste |   |  0  |   1  |  2  |  3  |  =  | ALT  | 
 //                         | GUI | SPC  |  ---  |   |  ,  | SHFT |  .  |
                         bindings = <
-   &kp ESC    &kp PG_UP  &kp LC(LS(TAB)) &kp UP    &kp LC(TAB)    &kp HOME         &kp LS(N7) &kp N7   &kp N8 &kp N9   &kp LS(RBKT) &mt LA(BSPC) BSPC 
-   &kp TAB    &kp PG_DN  &kp LEFT        &kp DOWN  &kp RIGHT      &kp END          &kp FSLH   &kp N4   &kp N5 &kp N6   &kp RBKT     &kp LS(N4)
-   &kp LCTRL  &none      &kp LC(LEFT)    &td0      &kp LC(RIGHT)  &kp LG(V)        &kp N0     &kp N1   &kp N2 &kp N3   &kp LS(N0)   &kp LALT
-                          	             &kp LGUI  &kp SPACE      &none            &kp COMMA  &kp LSHFT  &kp DOT
+   &kp ESC    &kp PG_UP  &kp LC(LS(TAB)) &kp UP    &kp LC(TAB)    &kp HOME         &kp LS(N7)         &kp N7   &kp N8 &kp N9   &mt        LS(RBKT) &mt LA(BSPC) BSPC 
+   &kp TAB    &kp PG_DN  &kp LEFT        &kp DOWN  &kp RIGHT      &kp END          &mt LS(FSLH) FSLH  &kp N4   &kp N5 &kp N6   &kp RBKT     &kp LS(N4)
+   &kp LCTRL  &none      &kp LC(LEFT)    &td0      &kp LC(RIGHT)  &kp LG(V)        &kp N0             &kp N1   &kp N2 &kp N3   &kp LS(N0)   &kp LALT
+                          	             &kp LGUI  &kp SPACE      &none            &kp COMMA          &kp LSHFT  &kp DOT
                         >;
                 }; 
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  ESC   |  !  |  ?  |  "  |   '  |     |   |  [  |  ]   |  <  |  >  | "|" | BKSP |
+// |  ESC   |  !  |  ?  | " ' |     |     |   |  [  |  ]   |  <  |  >  | "|" | BKSP |
 // |  TAB   |     |     |     |      |     |   |  (  |  )   |  /  |  \  |  #  |      |
-// | BT_CLR | BT0 | BT1 | BT2 | BT3  | BT4 |   |  {  |  }   |     |     |     |      |
+// | BT_CLR | BT0 | BT1 | BT2 | BT3  | BT4 |   |  {  |  }   |     |     |     |    =?  |
 //                      | GUI |      | SPC |   |     | SHFT | RET |
                         bindings = <
-   &kp ESC    &kp LS(N1)   &kp LS(MINUS) &kp LS(N2)     &kp TILDE    &none    &kp RA(N5) &kp RA(N6) &kp GRAVE  &kp TILDE           &kp LA(7)   &mt LA(BSPC) BSPC
-   &kp TAB    &kp RA(Q)    &trans        &trans         &trans       &trans       &kp LS(N8) &kp LS(N9) &kp LS(N7) &kp LS(RA(N7))  &kp BSLH    &kp LS(BSLH)
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3 &bt BT_SEL 4 &kp RA(N8) &kp RA(N9) &kp LBRC   &kp RBRC        &kp PIPE      &kp TILDE
-                    	     &kp LGUI     &kp SPACE      &trans       &trans      &kp LSHFT &kp RET
+   &kp ESC    &kp LS(N1)   &mt &kp LS(BSLH) LS(MINUS) &kp LS(BSLH)   &kp TILDE    &none    &kp RA(N5) &kp RA(N6) &kp GRAVE  &kp TILDE           &kp LA(N7)   &mt LA(BSPC) BSPC
+   &kp TAB    &kp RA(Q)    &trans                     &trans         &trans       &trans       &kp LS(N8) &kp LS(N9) &kp LS(N7) &kp LS(RA(N7))  &kp BSLH    &kp LS(BSLH)
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1               &bt BT_SEL 2   &bt BT_SEL 3 &bt BT_SEL 4 &kp RA(N8) &kp RA(N9) &kp LBRC   &kp RBRC        &kp PIPE      &kp KP_EQUAL
+                    	     &kp LGUI                 &kp SPACE      &trans       &trans      &kp LSHFT &kp RET
                         >;
                 };
         } ;
-};
+};>>>>>>>''''******'''*ÜÜ**ÜÜÜ}}}}}
