@@ -61,7 +61,6 @@
                           	             &kp LGUI  &kp SPACE      &none            &kp COMMA  &kp LSHFT  &kp DOT
                         >;
                 }; 
-
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |  ESC   |  !  |  ?  | " ' |      |     |   |  [  |  ]   |  <  |  >  | "|" | BKSP |
@@ -69,7 +68,7 @@
 // | BT_CLR | BT0 | BT1 | BT2 | BT3  | BT4 |   |  {  |  }   |     |     |     |      |
 //                      | GUI |      | SPC |   |     | SHFT | RET |
                         bindings = <
-   &kp ESC    &kp LS(N1)   &mt LS(BSLH) LS(MINUS)  &none   &kp TILDE    &none    &kp RA(N5) &kp RA(N6) &kp GRAVE  &kp TILDE           &kp LA(7)   &mt LA(BSPC) BSPC
+   &kp ESC    &kp LS(N1)   &mt LS(BSLH) LS(MINUS)  &none   &kp TILDE    &none    &kp RA(N5) &kp RA(N6) &kp GRAVE  &kp TILDE  &kp LA(7)       &mt LA(BSPC) BSPC
    &kp TAB    &kp RA(Q)    &trans                  &trans         &trans       &trans       &kp LS(N8) &kp LS(N9) &kp LS(N7) &kp LS(RA(N7))  &kp BSLH    &none
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1            &bt BT_SEL 2   &bt BT_SEL 3 &bt BT_SEL 4 &kp RA(N8) &kp RA(N9) &none      &none           &none       &none
                     	     &kp LGUI     &kp SPACE      &trans       &trans      &kp LSHFT &kp RET
