@@ -57,7 +57,7 @@
                         bindings = <
    &kp ESC    &kp PG_UP  &kp LC(LS(TAB)) &kp UP    &kp LC(TAB)    &kp HOME         &kp LS(N7) &kp N7   &kp N8 &kp N9   &kp LS(RBKT) &mt LA(BSPC) BSPC 
    &kp TAB    &kp PG_DN  &kp LEFT        &kp DOWN  &kp RIGHT      &kp END          &kp FSLH   &kp N4   &kp N5 &kp N6   &kp RBKT     &kp LS(N4)
-   &kp LCTRL  &none      &kp LC(LEFT)    &td0      &kp LC(RIGHT)  &kp LG(V)        &kp DOT    &kp N1   &kp N2 &kp N3   &kp LS(N0)   &kp LALT
+   &kp LCTRL  &none      &kp LC(LEFT)    &td0      &kp LC(RIGHT)  &kp LG(V)        &kp N0     &kp N1   &kp N2 &kp N3   &kp LS(N0)   &kp LALT
                           	             &kp LGUI  &kp SPACE      &none            &kp COMMA  &kp LSHFT  &kp DOT
                         >;
                 }; 
