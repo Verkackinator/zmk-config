@@ -75,5 +75,5 @@
                     	     &kp LGUI     &kp SPACE      &trans       &trans      &kp LSHFT &kp RET
                         >;
                 };
-        };
+        } ;
 }; 
